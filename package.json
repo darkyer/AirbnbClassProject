@@ -1,0 +1,26 @@
+{
+  "name": "blog-back",
+  "version": "1.0.0",
+  "description": "Back en graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test && jest --forceExit",
+    "dev": "nodemon index.js -f *.graphql",
+    "start": "node index.js"
+  },
+  "author": "Edwin Salgado",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cloudinary": "^1.15.0",
+    "dotenv": "^8.1.0",
+    "graphql-scalars": "^1.0.1",
+    "graphql-yoga": "^1.18.3",
+    "jest": "^24.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
